@@ -1,0 +1,15 @@
+#include<stdio.h>
+void main(){
+    int x= 108,y;
+    int sum=0;
+    printf("Enter the number of rows");
+    scanf ("%d",&y);
+    sum=x/y;
+    printf("%d is the seats",sum);
+}
+--------------------------------------------
+Output
+Enter the number of rows3
+36 is the seats
+
+
