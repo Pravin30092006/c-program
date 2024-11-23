@@ -1,0 +1,21 @@
+#include <stdio.h>
+void main()
+{
+    int x;
+    int sum=0;
+    printf("Enter a number:");
+    scanf("%d",&x);
+    if(x%2==0)
+    {
+        printf("\nEven number.");
+    }
+    else
+    {
+        printf("\nodd number.");
+    }
+}
+------------------------------------------
+Output
+Enter a number:2
+
+Even number.
