@@ -1,0 +1,18 @@
+#include <stdio.h>
+void main()
+{
+    float I,R,V;
+    printf ("Enter the value of current:\n");
+    scanf ("%f",&I);
+    printf("Enter the value of resistance:\n");
+    scanf("%f",&R);
+    V=I*R;
+    printf("value of voltage=%f",V);
+}
+--------------------------------------
+Output
+Enter the value of current:
+100
+Enter the value of resistance:
+2
+value of voltage=200.000000
