@@ -2,7 +2,6 @@
 void main()
 {
     int x;
-    int sum=0;
     printf("Enter a number:");
     scanf("%d",&x);
     if(x%2==0)
