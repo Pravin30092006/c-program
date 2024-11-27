@@ -1,0 +1,40 @@
+# include <stdio.h>
+void main()
+{
+    int matrix [5][3];
+    printf("enter the element for a 3x3 matrix:\n");
+    for (int i=0;i<3;i++) 
+    {
+        for(int j=0;j<3;j++) 
+    {
+        printf("enter element of[%d] [%d]\n",i,j);
+        scanf("%d",&matrix [i][j]);
+    }
+}
+printf("the 3x3 matrix is:\n");
+for(int i=0;i<3;i++)
+{
+    for(int j=0;j<3;j++)
+    {
+        printf("%d",matrix[i][j]);
+    }
+    printf("\n");
+    }
+}
+--------------------------------------
+Output
+enter the element for a 3x3 matrix:
+enter element of[0] [0]
+2,5
+enter element of[0] [1]
+enter element of[0] [2]
+enter element of[1] [0]
+enter element of[1] [1]
+enter element of[1] [2]
+enter element of[2] [0]
+enter element of[2] [1]
+enter element of[2] [2]
+the 3x3 matrix is:
+20286052357
+041943680
+419906100
