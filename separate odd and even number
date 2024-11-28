@@ -1,0 +1,51 @@
+#include<stdio.h>
+int main()
+{
+    int n,i;
+    printf("enter the number of elements:");
+    scanf("%d",&n);
+    int input[n],even[n],odd[n];
+    int evenindex=0,oddindex=0;
+    printf("enter %d elements:\n",n);
+    for(i=0;i<n;i++)
+    {
+        scanf("%d",&input[i]);
+    }
+    for(i=0;i<n;i++)
+    {
+        if(input[i]%2==0)
+        {
+            even[evenindex++]=input[i];
+        }else
+        {
+            odd[oddindex++]=input[i];
+            
+        }
+        
+    }
+    printf("even number:\n");
+    for(i=0;i<evenindex;i++)
+    {
+        printf("%d",even[i]);
+    }
+    printf("\n");
+    printf("odd numbers:\n");
+    for(i=0;i<oddindex;i++)
+    {
+        printf("%d",odd[i]);
+    }
+    printf("\n");
+    return 0;
+}
+---------------------------------------------
+Output
+enter the number of elements:6
+enter 6 elements:
+1 2 3 4 5 6
+even number:
+246
+odd numbers:
+135
+
+
+
