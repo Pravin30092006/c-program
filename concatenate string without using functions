@@ -23,6 +23,7 @@ void main()
     printf("concatenate string:%s\n",a);
 }
 ---------------------------------------
+Output 
   enter 1 string:10
 
  enter 2 string:20
