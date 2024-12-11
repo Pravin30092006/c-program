@@ -1,0 +1,31 @@
+#include <stdio.h>
+void main()
+{
+    char arr[100],let;
+    int i=0;
+    printf ("Enter the character:");
+    scanf(" %c",&let);
+    printf ("\nEnter the string : ");
+    scanf ("%s",&arr);
+    while(arr[i]!='\0')
+    {
+        if(arr[i]==let)
+        {
+        printf ("\nThe index value of the character is %d",i);
+        break;        
+        }
+        else
+        i++;
+    }
+    
+}
+----------------------------------
+Enter the character:n
+
+Enter the string : pravin
+
+The index value of the character is 5
+
+=== Code Exited With Errors ===
+
+
