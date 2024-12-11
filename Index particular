@@ -1,0 +1,26 @@
+#include<stdio.h>
+void main()
+{
+    char arr[100],let;
+    int i =0;
+    printf("enter the characters:");
+    scanf("%c",&let);
+    printf("\n enter the string:");
+    scanf("%s",&arr);
+    while (arr[i]!='\0')
+    {
+        if(arr[i]==let)
+        {
+            printf("\n the index value of the character is%d",i);
+            break;
+        }
+        else
+        i++;
+    }
+----------------------
+Output 
+enter the characters:n
+
+ enter the string:pravin
+
+ the index value of the character is5
