@@ -1,0 +1,21 @@
+#include <stdio.h>
+void main() 
+{
+    char l[100],u[100];
+    int i=0,j=0;
+    printf("Enter String in lowercase:");
+    scanf("%s",l);
+    while(l[i]!='\0')
+    {
+        u[j]=l[i]-32;
+        i++,j++;
+    }
+    printf("\nThe given string:%5",l);
+    printf("\n The converted String:%5",u);
+    
+    }
+--------------------------------------Enter String in lowercase:pravin
+
+The given string:
+ The converted String:
+
